@@ -1,1 +1,10 @@
-
+{
+  "manifest_version": 3,
+  "name": "Recipes Finder",
+  "version": "1.0",
+  "description": "Finds recipes from names on website",
+  "action": {
+    "default_popup": "index.html",
+    "default_title": "Recipies Finder"
+  }
+}
