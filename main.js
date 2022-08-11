@@ -30,7 +30,8 @@ document.addEventListener("DOMContentLoaded", () => {
         }
         container.appendChild(mealTitle);
         container.appendChild(mealImg);
-        mealImg.style.height = "400px";
+        mealTitle.style.fontSize = "3em";
+        mealImg.style.height = "350px";
         mealImg.style.width = "100%";
         const videoBtn = document.createElement("input");
         videoBtn.setAttribute("type", "submit");

@@ -6,14 +6,23 @@
       <meta http-equiv="X-UA-Compatible" content="ie=edge" />
       <title>HTML 5 Boilerplate</title>
       <link rel="stylesheet" href="style.css" />
+      <link
+        rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Grand+Hotel&family=Roboto&family=Source+Sans+Pro&display=swap"
+      />
+      <link
+        href="https://fonts.googleapis.com/icon?family=Material+Icons"
+        rel="stylesheet"
+      />
     </head>
     <body>
       <script src="main.js"></script>
-      <header><h1>Recipe Finder</h1></header>
+      <h1 id="header">Recipe Finder</h1>
       <div class="container">
         <form class="form ingredient-form">
           <input
             id="ingredient-input"
+            class="text-input"
             type="text"
             placeholder="Search by Ingredient"
           />
@@ -25,7 +34,12 @@
           />
         </form>
         <form class="form name-form">
-          <input id="name-input" type="text" placeholder="Search by Name" />
+          <input
+            id="name-input"
+            class="text-input"
+            type="text"
+            placeholder="Search by Name"
+          />
           <input
             value="Search"
             id="search-by-name"
